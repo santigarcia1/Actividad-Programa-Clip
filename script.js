@@ -1,4 +1,4 @@
-let letsPlay = () => {
+let riddle = () => {
 
     let trys = 4;
     let correctAnswer = 'Jeronimo Luis de Cabrera';
@@ -23,6 +23,6 @@ let letsPlay = () => {
         }        
     }
 
-function validateForm(){
+function reservation(){
     alert("Gracias por realizar su reserva!");
 }
