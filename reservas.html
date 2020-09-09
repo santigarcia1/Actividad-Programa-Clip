@@ -26,25 +26,25 @@
             <div class="form-group row">
                 <label for="" class="col-sm-2 col-form-label">Nombre</label>
                 <div class="col-md-4">
-                    <input class="form-control" type="text">
+                    <input class="form-control" id="inputNombre" type="text">
                 </div>
             </div>
             <div class="form-group row">
                 <label for="" class="col-sm-2 col-form-label">Apellido</label>
                 <div class="col-md-4">
-                    <input class="form-control" type="text">
+                    <input class="form-control" id="inputApellido" type="text">
                 </div>
             </div>
             <div class="form-group row">
                 <label for="" class="col-sm-2 col-form-label">Ciudad</label>
                 <div class="col-md-4">
-                    <input class="form-control" type="text">
+                    <input class="form-control" id="inputCiudad" type="text">
                 </div>
             </div>
             <div class="form-group row">
                 <label for="" class="col-sm-2 col-form-label">Email</label>
                 <div class="col-md-4">
-                    <input class="form-control" type="email">
+                    <input class="form-control" id="inputEmail" type="email">
                 </div>
             </div>
             <div class="form-group row">
@@ -62,30 +62,30 @@
             <div class="form-group row">
                 <label for="" class="col-sm-2 col-form-label">Fecha ida</label>
                 <div class="col-md-4">
-                    <input class="form-control" type="date">
+                    <input class="form-control" id="inputFechaIda" type="date">
                 </div>
             </div>
             <div class="form-group row">
                 <label for="" class="col-sm-2 col-form-label">Fecha vuelta</label>
                 <div class="col-md-4">
-                    <input class="form-control" type="date">
+                    <input class="form-control" id="inputFechaVuelta" type="date">
                 </div>
             </div>
             <div class="form-group row">
                 <label for="" class="col-sm-2 col-form-label">Cantidad de personas</label>
                 <div class="col-md-4">
-                    <input class="form-control" type="text">
+                    <input class="form-control" id="inputCantidad" type="text">
                 </div>
             </div>
             <div class="form-group row">
                 <div class="col-3 col-lg-2">
-                    <button type="button" class="boton">Reservar</button>
+                    <button type="button" onclick="validateForm()" class="boton">Reservar</button>
                 </div>
                 <div class="col-3 col-lg-2">
                     <button type="button" class="boton">Cancelar</button>
                 </div>
                 <div class="col-2 col-lg-2">
-                    <button type="button" class="boton">Adivinanza</button>
+                    <button type="button" onclick="letsPlay()" class="boton">Adivinanza</button>
                 </div>
             </div>
         </form>
@@ -100,5 +100,6 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 </body>
 </html>
